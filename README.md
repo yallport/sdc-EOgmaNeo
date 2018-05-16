@@ -10,6 +10,7 @@
 ## License and Copyright ##
 
 [OgmaCorp](https://github.com/ogmacorp)
+
 [EOgmaDrive repo](https://github.com/ogmacorp/EOgmaDrive)
 
 The work in this repository is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License. See the EOGMADRIVE_LICENSE.md and LICENSE.md file for further information. Contact Ogma via licenses@ogmacorp.com to discuss commercial use and licensing options.
