@@ -87,7 +87,7 @@ time.sleep(2)
 
 ######################
 
-ser = serial.Serial('/dev/serial/by-id/usb-Arduino_Srl_Arduino_Uno_556393038343514082D0-if00', 115200)
+ser = serial.Serial('/dev/ttyACM0', 115200)
 
 esystem = eogmaneo.ComputeSystem(4)
 
@@ -248,7 +248,7 @@ while not endProg:
         useSteerSDR = [ int((steer * 0.5 + 0.5) * (steerChunkSize * steerChunkSize - 1) + 0.5) ]
 
         if not training:
-            useSteerSDR = h.getPrediction(1)
+            useSteerSDR = h.getPredictions(1)
 
         #print(rotSDR)
      
@@ -258,7 +258,7 @@ while not endProg:
         sendDrive = drive
 
         if not training:
-            predSteerIndex = h.getPrediction(1)[0]
+            predSteerIndex = h.getPredictions(1)[0]
                 
             sendSteer = min(1.0, max(-1.0, predSteerIndex / float(steerChunkSize * steerChunkSize - 1) * 2.0 - 1.0))
 
