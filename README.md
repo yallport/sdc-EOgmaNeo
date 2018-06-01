@@ -23,8 +23,7 @@
 ## EOgmaNeo Self-Driving Car ##
 
 
-The program runs on the Pi, and all learning is done on the Pi's CPU. With the OgmaNeo library, there is no pre-training and no offloading to a more powerful machine. As you are driving, the network learns to predict the next command.
-
+The program runs on the Pi, and performs all the online machine learning on the Pi's CPU. With the OgmaNeo library, there is no pre-training and no offloading to a more powerful machine. The network learns to predict the next command as you drive it. The car takes video from the camera and the steering angles as input, and uses a predictive hierarchy to predict the next desired steering angle. This greatly lowers the computational cost, as well as saves the time and work necessary for collecting data for other kinds of neural networks. 
 
 
 
