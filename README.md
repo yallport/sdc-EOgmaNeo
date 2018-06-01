@@ -102,8 +102,10 @@ Documentation [here, "Feynman Machine: The Universal Dynamical Systems Computer"
 
 
 
+
 ### Arduino and Breadboard ###
 
+The breadboard is used to multiplex the power and ground pins.  
 
 
 ### Steam Controller ### 
