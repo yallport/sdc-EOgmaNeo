@@ -1,11 +1,15 @@
 # EOgmaNeo Raspberry Pi3 Self-Driving Car #
 
 ## Table of Contents ##
-[EOgmaNeo Self-Driving Car](#sdc)
-[OgmaNeo](#ogma)
-[Materials](#materials)
-[Docker Image for Pi](#docker)
-[Assembly Instructions](#assembly instructions)
+- [EOgmaNeo Self-Driving Car](#sdc)
+
+- [OgmaNeo](#ogma)
+
+- [Materials](#materials)
+
+- [Docker Image for Pi](#docker)
+
+- [Assembly Instructions](#assembly instructions)
 
 
 
