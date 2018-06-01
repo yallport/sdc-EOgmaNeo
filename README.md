@@ -42,13 +42,16 @@
 
 - [Pi camera](https://www.amazon.com/gp/product/B01ER2SKFS/ref=oh_aui_detailpage_o09_s00?ie=UTF8&psc=1) and [case](https://www.amazon.com/gp/product/B00IJZK66G/ref=oh_aui_detailpage_o07_s01?ie=UTF8&psc=1)
 
-- [Arduino Uno](https://www.amazon.com/gp/product/B008GRTSV6/ref=oh_aui_detailpage_o07_s02?ie=UTF8&psc=1) and [case](https://www.amazon.com/gp/product/B00UBT87XM/ref=oh_aui_detailpage_o07_s01?ie=UTF8&psc=1)
+- [Arduino Uno R3](https://www.amazon.com/gp/product/B008GRTSV6/ref=oh_aui_detailpage_o07_s02?ie=UTF8&psc=1) and [case](https://www.amazon.com/gp/product/B00UBT87XM/ref=oh_aui_detailpage_o07_s01?ie=UTF8&psc=1)
 
 - [A to B USB Cable](https://www.amazon.com/gp/product/B00K86MVE4/ref=oh_aui_detailpage_o07_s01?ie=UTF8&psc=1)
 
 - [Anker Power Bank](https://www.amazon.com/gp/product/B0194WDVHI/ref=oh_aui_detailpage_o07_s02?ie=UTF8&psc=1)
 
 - [32GB Memory Card](https://www.amazon.com/gp/product/B06XWN9Q99/ref=oh_aui_detailpage_o06_s00?ie=UTF8&psc=1)
+
+- [Steam Controller w/ Dongle](https://store.steampowered.com/app/353370/Steam_Controller/)
+
 
 #### Misc: #### 
 
