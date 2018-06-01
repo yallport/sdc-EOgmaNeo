@@ -10,7 +10,7 @@
 
 [Installation Instructions](#install)
 
-[Docker Image for Pi](#docker)
+- [Docker Image for Pi](#docker)
 
 [Assembly Instructions](#assembly)
 
@@ -72,7 +72,7 @@
 
 <a name="docker"/>
 
-## Docker Image for Pi ##
+### Docker Image for Pi ###
 
 
 [Docker image repo](https://github.com/ylustina/sdc-docker) for setting up a Raspberry Pi 3 Stretch environment for the EOgmaDrive Configuration1 self-driving car.
@@ -85,16 +85,17 @@
 ## Assembly Instructions ## 
 
 
-### Traxxas Truck ### 
 
-### Arduino ###
+### Arduino and Breadboard ###
+
+
 
 ### Steam Controller ### 
 
 The Steam controller dongle is directly plugged into the Pi. Steam controller installation instructions [here](https://github.com/ynsta/steamcontroller). Push a button on the controller on reboot and after starting the daemon!
 
 
-
+### Traxxas Truck ### 
 
 
 
