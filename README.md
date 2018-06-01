@@ -6,6 +6,8 @@
 
 [OgmaNeo](#ogma)
 
+- [Feynman Machine](#fm)
+
 [Materials](#materials)
 
 [Installation Instructions](#install)
@@ -21,11 +23,25 @@
 ## EOgmaNeo Self-Driving Car ##
 
 
+The program runs on the Pi, and all learning is done on the Pi's CPU. With the OgmaNeo library, there is no pre-training and no offloading to a more powerful machine. As you are driving, the network learns to predict the next command.
+
+
 
 
 <a name="ogma"/>
 
 ## OgmaNeo ##
+
+OgmaNeo is online (real-time) learning software. The OgmaNeo library contains implementations of Online Predictive Hierarchies. 
+
+
+
+
+<a name="fm"/>
+
+### Feynman Machine ### 
+
+Documentation [here, "Feynman Machine: The Universal Dynamical Systems Computer"](https://arxiv.org/abs/1609.03971).
 
 
 
@@ -96,6 +112,8 @@ The Steam controller dongle is directly plugged into the Pi. Steam controller in
 
 
 ### Traxxas Truck ### 
+
+I replaced the stock ESC with the [Dynamite Brushed ESC](https://www.amazon.com/gp/product/B00M1SB35U/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1) because the one that comes with the car makes the car stutter randomly.
 
 
 
