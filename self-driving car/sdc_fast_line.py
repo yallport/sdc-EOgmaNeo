@@ -1,51 +1,49 @@
-# ----------------------------------------------------------------------------
-#  EOgmaDrive
-#  Copyright(c) 2017 Ogma Intelligent Systems Corp. All rights reserved.
-#
-#  This copy of EOgmaDrive is licensed to you under the terms described
-#  in the EOGMADRIVE_LICENSE.md file included in this distribution.
-# ----------------------------------------------------------------------------
-
-# -*- coding: utf-8 -*-
-
-import sys
+import cv2
+import eogmaneo
 import os
-import signal
-import pygame
+import os.path
 import picamera
-import pygame.surface
-import pygame.joystick
-import numpy as np
-import struct
+import pygame
 import re
+import serial
+import signal
+import struct
+import sys
+import time
+import numpy as np
+import pygame.joystick
+import pygame.surface
+from PIL import Image
 from threading import Thread
 from threading import Lock
 from threading import Condition
 from threading import Barrier
-import os.path
-from PIL import Image
-import serial
-import eogmaneo
-import time
-import cv2
+
+
 
 trimming = 0.1
 
+# Runs code without creating a pygame window
 os.environ["SDL_VIDEODRIVER"] = "dummy"
+
 
 def pygame_to_pil_img(pg_surface):
     imgstr = pygame.image.tostring(pg_surface, 'RGB')
     return Image.fromstring('RGB', pg_surface.get_size(), imgstr)
 
+
 def pil_to_pygame_img(pil_img):
     imgstr = pil_img.tostring()
     return pygame.image.fromstring(imgstr, pil_img.size, 'RGB')
 
+
 def matToVec(mat):
     return mat.flatten().astype(np.float32).tolist()
 
+
 def sigmoid(x):
     return 1.0 / (1.0 + np.exp(-x))
+
 
 endProg = False
 
@@ -81,7 +79,7 @@ camera = picamera.PiCamera()
 camera.resolution = (camWidth, camHeight)
 camera.framerate = 24
 
-#camera.start_preview()
+# camera.start_preview()
 
 time.sleep(2)
 
@@ -285,3 +283,16 @@ while not endProg:
 
 pygame.quit()
 ser.close()
+
+
+
+# ----------------------------------------------------------------------------
+#
+#  EOgmaDrive
+#  Copyright(c) 2017 Ogma Intelligent Systems Corp. All rights reserved.
+#
+#  This copy of EOgmaDrive is licensed to you under the terms described
+#  in the EOGMADRIVE_LICENSE.md file included in this distribution.
+# ----------------------------------------------------------------------------
+
+# -*- coding: utf-8 -*-
