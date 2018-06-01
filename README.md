@@ -15,18 +15,21 @@
 
 
 <a name="sdc"/>
-## EOgmaNeo Self-Driving Car
+
+## EOgmaNeo Self-Driving Car ##
 
 
 
 
 <a name="ogma"/>
-## OgmaNeo
+
+## OgmaNeo ##
 
 
 
 
 <a name="materials"/>
+
 ## Materials ##
 
 - [Raspberry Pi 3B+](https://www.amazon.com/CanaKit-Raspberry-Power-Supply-Listed/dp/B07BC6WH7V/ref=sr_1_3?s=electronics&ie=UTF8&qid=1527881534&sr=1-3&keywords=pi+3B%2B) and [case w/ fan](https://www.amazon.com/gp/product/B01E8YBSDG/ref=oh_aui_detailpage_o07_s03?ie=UTF8&psc=1)
@@ -59,6 +62,7 @@
 
 
 <a name="docker"/>
+
 ## Docker Image for Pi ##
 
 
@@ -68,6 +72,7 @@
 
 
 <a name="assembly"/>
+
 ## Assembly Instructions ## 
 
 
