@@ -1,6 +1,6 @@
 # EOgmaNeo Raspberry Pi3 Self-Driving Car #
 
-## Table of Contents ##
+## Table of Contents
 
 - [EOgmaNeo Self-Driving Car](#sdc)
 
@@ -15,13 +15,13 @@
 
 
 <a name="sdc"/>
-## EOgmaNeo Self-Driving Car ##
+## EOgmaNeo Self-Driving Car
 
 
 
 
 <a name="ogma"/>
-## OgmaNeo ##
+## OgmaNeo
 
 
 
