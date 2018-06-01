@@ -4,6 +4,8 @@ import os
 import os.path
 import picamera
 import pygame
+import pygame.joystick
+import pygame.surface
 import re
 import serial
 import signal
@@ -11,8 +13,6 @@ import struct
 import sys
 import time
 import numpy as np
-import pygame.joystick
-import pygame.surface
 from PIL import Image
 from threading import Thread
 from threading import Lock
