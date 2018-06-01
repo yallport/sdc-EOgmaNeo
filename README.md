@@ -1,7 +1,27 @@
 # EOgmaNeo Raspberry Pi3 Self-Driving Car #
 
+## Table of Contents ##
+[EOgmaNeo Self-Driving Car](#sdc)
+[OgmaNeo](#ogma)
+[Materials](#materials)
+[Docker Image for Pi](#docker)
+[Assembly Instructions](#assembly instructions)
 
 
+
+<a name="sdc"/>
+## EOgmaNeo Self-Driving Car ##
+
+
+
+
+<a name="ogma"/>
+## OgmaNeo ##
+
+
+
+
+<a name="materials"/>
 ## Materials ##
 - [Raspberry Pi 3B+](https://www.amazon.com/CanaKit-Raspberry-Power-Supply-Listed/dp/B07BC6WH7V/ref=sr_1_3?s=electronics&ie=UTF8&qid=1527881534&sr=1-3&keywords=pi+3B%2B) and [case w/ fan](https://www.amazon.com/gp/product/B01E8YBSDG/ref=oh_aui_detailpage_o07_s03?ie=UTF8&psc=1)
 - [Traxxas Rustler Truck](https://www.amazon.com/gp/product/B01EA6QXWS/ref=oh_aui_detailpage_o07_s00?ie=UTF8&psc=1)
@@ -20,16 +40,18 @@
 
 
 
-## Assembly Instructions ## 
 
-
-
-
-
-## Docker Image Repo ##
+<a name="docker"/>
+## Docker Image for Pi ##
 
 
 [Docker image repo](https://github.com/ylustina/sdc-docker) for setting up a Raspberry Pi 3 Stretch environment for the EOgmaDrive Configuration1 self-driving car.
+
+
+
+
+<a name="assembly instructions"/>
+## Assembly Instructions ## 
 
 
 ----------------
