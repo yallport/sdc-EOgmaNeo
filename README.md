@@ -2,15 +2,17 @@
 
 ## Table of Contents
 
-- [EOgmaNeo Self-Driving Car](#sdc)
+[EOgmaNeo Self-Driving Car](#sdc)
 
-- [OgmaNeo](#ogma)
+[OgmaNeo](#ogma)
 
-- [Materials](#materials)
+[Materials](#materials)
 
-- [Docker Image for Pi](#docker)
+[Installation Instructions](#install)
 
-- [Assembly Instructions](#assembly)
+[Docker Image for Pi](#docker)
+
+[Assembly Instructions](#assembly)
 
 
 
@@ -63,6 +65,10 @@
 
 
 
+<a name="install"/>
+
+## Installation Instructions ##
+
 
 <a name="docker"/>
 
@@ -77,6 +83,19 @@
 <a name="assembly"/>
 
 ## Assembly Instructions ## 
+
+
+### Traxxas Truck ### 
+
+### Arduino ###
+
+### Steam Controller ### 
+
+The Steam controller dongle is directly plugged into the Pi. Steam controller installation instructions [here](https://github.com/ynsta/steamcontroller). Push a button on the controller on reboot and after starting the daemon!
+
+
+
+
 
 
 ----------------
