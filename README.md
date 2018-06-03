@@ -87,6 +87,8 @@ Documentation [here, "Feynman Machine: The Universal Dynamical Systems Computer"
 
 ## Installation Instructions ##
 
+
+
 Walkthrough for the installation process in my Docker container repository [here](https://github.com/ylustina/sdc-docker). 
 
 - Install the Steam controller on the Pi
@@ -101,9 +103,9 @@ Walkthrough for the installation process in my Docker container repository [here
 
 ### Docker Image for Pi ###
 
+[Docker image repository](https://github.com/ylustina/sdc-docker) for setting up a Raspberry Pi 3 Stretch environment for the EOgmaDrive self-driving car.
 
-[Docker image repo](https://github.com/ylustina/sdc-docker) for setting up a Raspberry Pi 3 Stretch environment for the EOgmaDrive Configuration1 self-driving car.
-
+[DockerHub link](https://hub.docker.com/r/ylustina/sdc-docker/).
 
 
 
@@ -112,11 +114,22 @@ Walkthrough for the installation process in my Docker container repository [here
 ## Assembly Instructions ## 
 
 
+### Camera ### 
+
+The camera is mounted to the front of the truck. 
+
+To test if the camera works:
+
+  from picamera import PiCamera
+  camera = PiCamera()
+  camera.capture('image.jpg') 
+
+I used [this mount](https://github.com/ylustina/sdc-EOgmaNeo/blob/master/rustler_mount.stl) to mount the camera for the Raspberry Pi to the truck. It doesn't perfectly slide onto the truck, and is made for the GoPro, but with some epoxy, it got the job done. Please let me know if you find something better!
 
 
 ### Arduino and Breadboard ###
 
-The breadboard is used to multiplex the power and ground pins. The power cables connected are:
+The breadboard is used to multiplex the power and ground pins. The power cables connected at the breadboard are:
 
 - Arduino
 
@@ -125,7 +138,7 @@ The breadboard is used to multiplex the power and ground pins. The power cables 
 - Driving servo (back motor)
 
 
-The ground cables connected are:
+The ground cables connected at the breadboard are:
 
 - Arduino
 
@@ -147,6 +160,8 @@ If you want, you can change these in the [.ino file](https://github.com/ylustina
 ### Steam Controller ### 
 
 The Steam controller dongle is directly plugged into the Pi. Steam controller installation instructions [here](https://github.com/ynsta/steamcontroller). Push a button on the controller on reboot and after starting the daemon!
+
+
 
 
 ### Traxxas Truck ### 
