@@ -87,6 +87,15 @@ Documentation [here, "Feynman Machine: The Universal Dynamical Systems Computer"
 
 ## Installation Instructions ##
 
+Walkthrough for the installation process in my Docker container repository [here](https://github.com/ylustina/sdc-docker). 
+
+- Install the Steam controller on the Pi
+
+- Install Docker on the Pi
+
+- Ino build + upload in the Docker container
+
+
 
 <a name="docker"/>
 
@@ -107,7 +116,32 @@ Documentation [here, "Feynman Machine: The Universal Dynamical Systems Computer"
 
 ### Arduino and Breadboard ###
 
-The breadboard is used to multiplex the power and ground pins.  
+The breadboard is used to multiplex the power and ground pins. The power cables connected are:
+
+- Arduino
+
+- Steering servo
+
+- Driving servo (back motor)
+
+
+The ground cables connected are:
+
+- Arduino
+
+- Steering servo
+
+- Driving servo (back motor)
+
+
+On the Arduino, here are the corresponding digital connections: 
+
+Digital 2: Driving Servo
+
+Digital 3: Steering Servo
+
+If you want, you can change these in the [.ino file](https://github.com/ylustina/sdc-EOgmaNeo/blob/master/self-driving%20car/drive/src/SDC_controller_norf.ino).
+
 
 
 ### Steam Controller ### 
