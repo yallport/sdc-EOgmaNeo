@@ -37,6 +37,8 @@ The program runs on the Pi, and performs all the online machine learning on the 
 OgmaNeo is online (real-time) learning software. The OgmaNeo library contains implementations of Online Predictive Hierarchies. 
 
 
+### EOgmaNeo ###
+
 
 
 <a name="fm"/>
@@ -143,9 +145,9 @@ The breadboard is used to multiplex the power and ground pins. There should be 3
 
 On the Arduino, here are the corresponding digital connections: 
 
-Digital 2: Driving Servo
+- Digital 2: Driving Servo
 
-Digital 3: Steering Servo
+- Digital 3: Steering Servo
 
 If you want, you can change the assignment in the [.ino file](https://github.com/ylustina/sdc-EOgmaNeo/blob/master/self-driving%20car/drive/src/SDC_controller_norf.ino).
 
