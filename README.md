@@ -153,7 +153,7 @@ If you want, you can change the assignment in the [.ino file](https://github.com
 
 ### Steam Controller ### 
 
-The Steam controller dongle is directly plugged into the Pi. Steam controller installation instructions [here](https://github.com/ylustina/sdc-docker#controller) in my Docker repository, or[here](https://github.com/ynsta/steamcontroller), from the driver repo. 
+The Steam controller dongle is directly plugged into the Pi. Steam controller installation instructions [here](https://github.com/ylustina/sdc-docker#controller) in my Docker repository, or [here](https://github.com/ynsta/steamcontroller), from the driver repo. 
 
 
 #### Important! #### 
@@ -166,7 +166,7 @@ Push a button on the controller on reboot and after starting the daemon!
 
 I replaced the stock ESC with the [Dynamite Brushed ESC](https://www.amazon.com/gp/product/B00M1SB35U/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1) because the one that comes with the car makes the car stutter randomly.
 
-I couldn't get all the materials to fit under the truck case, so ended up with a beautiful Frankensteined cable monster. You try it! Good luck!
+I couldn't get all the materials to fit under the truck case, so I ended up with a beautiful Frankensteined cable monster. You try it! Good luck!
 
 
 ----------------
