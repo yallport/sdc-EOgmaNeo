@@ -246,7 +246,7 @@ while not endProg:
         useSteerSDR = [ int((steer * 0.5 + 0.5) * (steerChunkSize * steerChunkSize - 1) + 0.5) ]
 
         if not training:
-            useSteerSDR = h.getPrediction(1)
+            useSteerSDR = h.getPredictions(1)
 
         #print(rotSDR)
      
@@ -256,7 +256,7 @@ while not endProg:
         sendDrive = drive
 
         if not training:
-            predSteerIndex = h.getPrediction(1)[0]
+            predSteerIndex = h.getPredictions(1)[0]
                 
             sendSteer = min(1.0, max(-1.0, predSteerIndex / float(steerChunkSize * steerChunkSize - 1) * 2.0 - 1.0))
 
