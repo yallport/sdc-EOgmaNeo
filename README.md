@@ -116,21 +116,6 @@ Walkthrough for the installation process in my Docker container repository [here
 ## Assembly Instructions ## 
 
 
-### Camera ### 
-
-The camera is mounted to the front of the truck.
-
-
-To test if the camera works:
-
-    from picamera import PiCamera
-    camera = PiCamera()
-    camera.capture('image.jpg') 
-    
-
-I used [this mount](https://github.com/ylustina/sdc-EOgmaNeo/blob/master/rustler_mount.stl) to mount the camera for the Raspberry Pi to the truck. It doesn't perfectly slide onto the truck, and is made for the GoPro, but with some epoxy, it got the job done. Please let me know if you find something better!
-
-
 ### Arduino and Breadboard ###
 
 The breadboard is used to multiplex the power and ground pins. There should be 3 in each + and -. The power and the ground cables connected at the breadboard are:
@@ -169,6 +154,23 @@ Push a button on the controller on reboot and after starting the daemon!
 I replaced the stock ESC with the [Dynamite Brushed ESC](https://www.amazon.com/gp/product/B00M1SB35U/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1) because the one that comes with the car makes the car stutter randomly.
 
 I couldn't get all the materials to fit under the truck case, so I ended up with a beautiful Frankensteined cable monster. You try it! Good luck!
+
+
+
+### Camera ### 
+
+The camera is mounted to the front of the truck.
+
+
+To test if the camera works:
+
+    from picamera import PiCamera
+    camera = PiCamera()
+    camera.capture('image.jpg') 
+    
+
+I used [this mount](https://github.com/ylustina/sdc-EOgmaNeo/blob/master/rustler_mount.stl) to mount the camera for the Raspberry Pi to the truck. It doesn't perfectly slide onto the truck, and is made for the GoPro, but with some epoxy, it got the job done. Please let me know if you find something better!
+
 
 
 ----------------
