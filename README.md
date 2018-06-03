@@ -116,20 +116,22 @@ Walkthrough for the installation process in my Docker container repository [here
 
 ### Camera ### 
 
-The camera is mounted to the front of the truck. 
+The camera is mounted to the front of the truck.
+
 
 To test if the camera works:
 
-  from picamera import PiCamera
-  camera = PiCamera()
-  camera.capture('image.jpg') 
+    from picamera import PiCamera
+    camera = PiCamera()
+    camera.capture('image.jpg') 
+    
 
 I used [this mount](https://github.com/ylustina/sdc-EOgmaNeo/blob/master/rustler_mount.stl) to mount the camera for the Raspberry Pi to the truck. It doesn't perfectly slide onto the truck, and is made for the GoPro, but with some epoxy, it got the job done. Please let me know if you find something better!
 
 
 ### Arduino and Breadboard ###
 
-The breadboard is used to multiplex the power and ground pins. The power cables connected at the breadboard are:
+The breadboard is used to multiplex the power and ground pins. There should be 3 in each + and -. The power and the ground cables connected at the breadboard are:
 
 - Arduino
 
@@ -137,14 +139,6 @@ The breadboard is used to multiplex the power and ground pins. The power cables 
 
 - Driving servo (back motor)
 
-
-The ground cables connected at the breadboard are:
-
-- Arduino
-
-- Steering servo
-
-- Driving servo (back motor)
 
 
 On the Arduino, here are the corresponding digital connections: 
@@ -153,14 +147,18 @@ Digital 2: Driving Servo
 
 Digital 3: Steering Servo
 
-If you want, you can change these in the [.ino file](https://github.com/ylustina/sdc-EOgmaNeo/blob/master/self-driving%20car/drive/src/SDC_controller_norf.ino).
+If you want, you can change the assignment in the [.ino file](https://github.com/ylustina/sdc-EOgmaNeo/blob/master/self-driving%20car/drive/src/SDC_controller_norf.ino).
 
 
 
 ### Steam Controller ### 
 
-The Steam controller dongle is directly plugged into the Pi. Steam controller installation instructions [here](https://github.com/ynsta/steamcontroller). Push a button on the controller on reboot and after starting the daemon!
+The Steam controller dongle is directly plugged into the Pi. Steam controller installation instructions [here](https://github.com/ylustina/sdc-docker#controller) in my Docker repository, or[here](https://github.com/ynsta/steamcontroller), from the driver repo. 
 
+
+#### Important! #### 
+
+Push a button on the controller on reboot and after starting the daemon!
 
 
 
@@ -168,6 +166,7 @@ The Steam controller dongle is directly plugged into the Pi. Steam controller in
 
 I replaced the stock ESC with the [Dynamite Brushed ESC](https://www.amazon.com/gp/product/B00M1SB35U/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1) because the one that comes with the car makes the car stutter randomly.
 
+I couldn't get all the materials to fit under the truck case, so ended up with a beautiful Frankensteined cable monster. You try it! Good luck!
 
 
 ----------------
