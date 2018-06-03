@@ -8,6 +8,8 @@
 
 - [Feynman Machine](#fm)
 
+- [EOgmaNeo](#eogmaneo) 
+
 [Materials](#materials)
 
 [Installation Instructions](#install)
@@ -30,6 +32,7 @@ The program runs on the Pi, and performs all the online machine learning on the 
 
 
 
+
 <a name="ogma"/>
 
 ## OgmaNeo ##
@@ -37,15 +40,19 @@ The program runs on the Pi, and performs all the online machine learning on the 
 OgmaNeo is online (real-time) learning software. The OgmaNeo library contains implementations of Online Predictive Hierarchies. 
 
 
-### EOgmaNeo ###
-
-
 
 <a name="fm"/>
 
 ### Feynman Machine ### 
 
-Documentation [here, "Feynman Machine: The Universal Dynamical Systems Computer"](https://arxiv.org/abs/1609.03971).
+The Feynman Machine is a hierarchical sequence prediction algorithm that functions on the basis of coupled dynamical systems. Documentation [here, "Feynman Machine: The Universal Dynamical Systems Computer"](https://arxiv.org/abs/1609.03971).
+
+
+
+
+<a name="eogmaneo"/>
+
+### EOgmaNeo ###
 
 
 
@@ -58,7 +65,7 @@ Documentation [here, "Feynman Machine: The Universal Dynamical Systems Computer"
 
 - [Traxxas Rustler Truck](https://www.amazon.com/gp/product/B01EA6QXWS/ref=oh_aui_detailpage_o07_s00?ie=UTF8&psc=1)
 
-- [Traxxas Rustler mount](https://www.thingiverse.com/thing:1476904/apps/customize/)
+- [Traxxas Rustler camera mount](https://www.thingiverse.com/thing:1476904/apps/customize/) .stl file included in this repository.
 
 - [60A Brushed ESC](https://www.amazon.com/gp/product/B00M1SB35U/ref=oh_aui_detailpage_o03_s00?ie=UTF8&psc=1)
 
