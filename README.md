@@ -132,8 +132,6 @@ Walkthrough for the installation process in my Docker container repository [here
 
 ### Arduino and Breadboard ###
 
-![Arduino side](https://github.com/ylustina/sdc-EOgmaNeo/blob/master/docs/arduino-side.jpg)
-
 
 
 The breadboard is used to multiplex the power and ground pins. There should be 3 in each + and -. The power and the ground cables connected at the breadboard are:
@@ -153,6 +151,9 @@ On the Arduino, here are the corresponding digital connections:
 - Digital 3: Steering Servo
 
 If you want, you can change the assignment in the [.ino file](https://github.com/ylustina/sdc-EOgmaNeo/blob/master/self-driving%20car/drive/src/SDC_controller_norf.ino).
+
+
+![Arduino side](https://github.com/ylustina/sdc-EOgmaNeo/blob/master/docs/arduino-side.jpg)
 
 
 
