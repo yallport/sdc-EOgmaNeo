@@ -49,7 +49,7 @@ OgmaNeo is online (real-time) learning software. The OgmaNeo library contains im
 
 ### Feynman Machine ### 
 
-The Feynman Machine is a hierarchical sequence prediction algorithm that functions on the basis of coupled dynamical systems. Documentation [here, "Feynman Machine: The Universal Dynamical Systems Computer"](https://arxiv.org/abs/1609.03971).
+The Feynman Machine is a hierarchical sequence prediction algorithm that functions on the basis of coupled dynamical systems. Documentation here, ["Feynman Machine: The Universal Dynamical Systems Computer"](https://arxiv.org/abs/1609.03971).
 
 
 
