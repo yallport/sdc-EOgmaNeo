@@ -1,5 +1,9 @@
 # EOgmaNeo Raspberry Pi3 Self-Driving Car #
 
+![Front side](https://github.com/ylustina/sdc-EOgmaNeo/blob/master/docs/front.jpg)
+
+
+
 ## Table of Contents
 
 [EOgmaNeo Self-Driving Car](#sdc)
@@ -122,8 +126,15 @@ Walkthrough for the installation process in my Docker container repository [here
 
 ## Assembly Instructions ## 
 
+![Top](https://github.com/ylustina/sdc-EOgmaNeo/blob/master/docs/top.jpg)
+
+
 
 ### Arduino and Breadboard ###
+
+![Arduino side](https://github.com/ylustina/sdc-EOgmaNeo/blob/master/docs/arduino-side.jpg)
+
+
 
 The breadboard is used to multiplex the power and ground pins. There should be 3 in each + and -. The power and the ground cables connected at the breadboard are:
 
