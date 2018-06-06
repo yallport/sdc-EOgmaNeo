@@ -1,5 +1,9 @@
 # EOgmaNeo Raspberry Pi3 Self-Driving Car #
 
+![Front side](https://github.com/ylustina/sdc-EOgmaNeo/blob/master/docs/front.jpg)
+
+
+
 ## Table of Contents
 
 [EOgmaNeo Self-Driving Car](#sdc)
@@ -7,6 +11,8 @@
 [OgmaNeo](#ogma)
 
 - [Feynman Machine](#fm)
+
+- [EOgmaNeo](#eogmaneo) 
 
 [Materials](#materials)
 
@@ -30,6 +36,7 @@ The program runs on the Pi, and performs all the online machine learning on the 
 
 
 
+
 <a name="ogma"/>
 
 ## OgmaNeo ##
@@ -38,12 +45,18 @@ OgmaNeo is online (real-time) learning software. The OgmaNeo library contains im
 
 
 
-
 <a name="fm"/>
 
 ### Feynman Machine ### 
 
-Documentation [here, "Feynman Machine: The Universal Dynamical Systems Computer"](https://arxiv.org/abs/1609.03971).
+The Feynman Machine is a hierarchical sequence prediction algorithm that functions on the basis of coupled dynamical systems. Documentation here, ["Feynman Machine: The Universal Dynamical Systems Computer"](https://arxiv.org/abs/1609.03971).
+
+
+
+
+<a name="eogmaneo"/>
+
+### EOgmaNeo ###
 
 
 
@@ -56,7 +69,7 @@ Documentation [here, "Feynman Machine: The Universal Dynamical Systems Computer"
 
 - [Traxxas Rustler Truck](https://www.amazon.com/gp/product/B01EA6QXWS/ref=oh_aui_detailpage_o07_s00?ie=UTF8&psc=1)
 
-- [Traxxas Rustler mount](https://www.thingiverse.com/thing:1476904/apps/customize/)
+- [Traxxas Rustler camera mount](https://www.thingiverse.com/thing:1476904/apps/customize/) .stl file included in this repository.
 
 - [60A Brushed ESC](https://www.amazon.com/gp/product/B00M1SB35U/ref=oh_aui_detailpage_o03_s00?ie=UTF8&psc=1)
 
@@ -88,13 +101,24 @@ Documentation [here, "Feynman Machine: The Universal Dynamical Systems Computer"
 ## Installation Instructions ##
 
 
+
+Walkthrough for the installation process in my Docker container repository [here](https://github.com/ylustina/sdc-docker). 
+
+- Install the Steam controller on the Pi
+
+- Install Docker on the Pi
+
+- Ino build + upload in the Docker container
+
+
+
 <a name="docker"/>
 
 ### Docker Image for Pi ###
 
+[Docker image repository](https://github.com/ylustina/sdc-docker) for setting up a Raspberry Pi 3 Stretch environment for the EOgmaDrive self-driving car.
 
-[Docker image repo](https://github.com/ylustina/sdc-docker) for setting up a Raspberry Pi 3 Stretch environment for the EOgmaDrive Configuration1 self-driving car.
-
+[DockerHub link](https://hub.docker.com/r/ylustina/sdc-docker/).
 
 
 
@@ -102,22 +126,69 @@ Documentation [here, "Feynman Machine: The Universal Dynamical Systems Computer"
 
 ## Assembly Instructions ## 
 
+![Top](https://github.com/ylustina/sdc-EOgmaNeo/blob/master/docs/top.jpg)
 
 
 
 ### Arduino and Breadboard ###
 
-The breadboard is used to multiplex the power and ground pins.  
+
+
+The breadboard is used to multiplex the power and ground pins. There should be 3 in each + and -. The power and the ground cables connected at the breadboard are:
+
+- Arduino
+
+- Steering servo
+
+- Driving servo (back motor)
+
+
+
+On the Arduino, here are the corresponding digital connections: 
+
+- Digital 2: Driving Servo
+
+- Digital 3: Steering Servo
+
+If you want, you can change the assignment in the [.ino file](https://github.com/ylustina/sdc-EOgmaNeo/blob/master/self-driving%20car/drive/src/SDC_controller_norf.ino).
+
+
+![Arduino side](https://github.com/ylustina/sdc-EOgmaNeo/blob/master/docs/arduino-side.jpg)
+
 
 
 ### Steam Controller ### 
 
-The Steam controller dongle is directly plugged into the Pi. Steam controller installation instructions [here](https://github.com/ynsta/steamcontroller). Push a button on the controller on reboot and after starting the daemon!
+The Steam controller dongle is directly plugged into the Pi. Steam controller installation instructions [here](https://github.com/ylustina/sdc-docker#controller) in my Docker repository, or [here](https://github.com/ynsta/steamcontroller), from the driver repo. 
+
+
+#### Important! #### 
+
+Push a button on the controller on reboot and after starting the daemon!
+
 
 
 ### Traxxas Truck ### 
 
 I replaced the stock ESC with the [Dynamite Brushed ESC](https://www.amazon.com/gp/product/B00M1SB35U/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1) because the one that comes with the car makes the car stutter randomly.
+
+I couldn't get all the materials to fit under the truck case, so I ended up with a beautiful Frankensteined cable monster. You try it! Good luck!
+
+
+
+### Camera ### 
+
+The camera is mounted to the front of the truck.
+
+
+To test if the camera works:
+
+    from picamera import PiCamera
+    camera = PiCamera()
+    camera.capture('image.jpg') 
+    
+
+I used [this mount](https://github.com/ylustina/sdc-EOgmaNeo/blob/master/rustler_mount.stl) to mount the camera for the Raspberry Pi to the truck. It doesn't perfectly slide onto the truck, and is made for the GoPro, but with some epoxy, it got the job done. Please let me know if you find something better!
 
 
 
