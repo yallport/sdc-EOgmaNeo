@@ -44,12 +44,21 @@ The program runs on the Pi, and performs all the online machine learning on the 
 OgmaNeo is online (real-time) learning software. The OgmaNeo library contains implementations of Online Predictive Hierarchies. 
 
 
+If you have a machine learning problem that has to do with data changing over time, and the traditional approaches to machine learning don't work, check out OgmaNeo! 
+
+
+
+
 
 <a name="fm"/>
 
 ### Feynman Machine ### 
 
-The Feynman Machine is a hierarchical sequence prediction algorithm that functions on the basis of coupled dynamical systems. Documentation here, ["Feynman Machine: The Universal Dynamical Systems Computer"](https://arxiv.org/abs/1609.03971).
+The Feynman Machine is a brain-inspired sequence prediction algorithm AI architecture for machine learning. It is a network of intercommunicating nonlinear dynamical systems, and each system can adapt to predict its future inputs. 
+
+
+Read the paper, "Feynman Machine: The Universal Dynamical Systems Computer" [here!](https://arxiv.org/abs/1609.03971)
+
 
 
 
@@ -57,6 +66,10 @@ The Feynman Machine is a hierarchical sequence prediction algorithm that functio
 <a name="eogmaneo"/>
 
 ### EOgmaNeo ###
+
+While OgmaNeo can run on large networks and parallel architectures like GPUs, EOgmaNeo runs on the CPU and is optimized for low-powered hardware. 
+
+
 
 
 
