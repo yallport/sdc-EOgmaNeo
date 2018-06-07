@@ -63,17 +63,11 @@ pygame.init()
 pygame.joystick.init()
 joystick_count = pygame.joystick.get_count()
 
-while joystick_count < 1:
+
+if joystick_count < 1:
+    print("No joysticks found.")
     time.sleep(1)
-    pygame.init()
-    pygame.joystick.init()
-    joystick_count = pygame.joystick.get_count()
-
-
-#if joystick_count < 1:
-#    print("No joysticks found.")
-#
-#    sys.exit()
+    sys.exit()
 
 print("Found " + str(joystick_count) + " joysticks.")
 
