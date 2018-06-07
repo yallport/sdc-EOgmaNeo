@@ -1,4 +1,6 @@
-# EOgmaNeo Raspberry Pi3B+ Self-Driving Car #
+# EOgmaNeo Self-Driving Car
+## Powered by Raspberry Pi 3B+ and Arduino 
+
 
 ![Front side](https://github.com/ylustina/sdc-EOgmaNeo/blob/master/docs/front.jpg)
 
