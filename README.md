@@ -1,4 +1,4 @@
-# EOgmaNeo Raspberry Pi3 Self-Driving Car #
+# EOgmaNeo Raspberry Pi3B+ Self-Driving Car #
 
 ![Front side](https://github.com/ylustina/sdc-EOgmaNeo/blob/master/docs/front.jpg)
 
@@ -41,11 +41,9 @@ The program runs on the Pi, and performs all the online machine learning on the 
 
 ## OgmaNeo ##
 
-OgmaNeo is online (real-time) learning software. The OgmaNeo library contains implementations of Online Predictive Hierarchies. 
-
+OgmaNeo is online (real-time) learning software. The OgmaNeo library contains implementations of Online Predictive Hierarchies based on the Feynman Machine. 
 
 If you have a machine learning problem that has to do with data changing over time, and the traditional approaches to machine learning don't work, check out OgmaNeo! 
-
 
 
 
@@ -54,10 +52,10 @@ If you have a machine learning problem that has to do with data changing over ti
 
 ### Feynman Machine ### 
 
-The Feynman Machine is a brain-inspired sequence prediction algorithm AI architecture for machine learning. It is a network of intercommunicating nonlinear dynamical systems, and each system can adapt to predict its future inputs. 
+The Feynman Machine is a brain-inspired sequence prediction algorithm AI architecture for machine learning. It is a network of intercommunicating nonlinear dynamical systems, and each system can adapt to predict its future inputs. While the Feynman Machine is not for beginners due to the combination of hard math, neuroscience, and machine learning, Ogma has done an extraordinary job in packaging their software in a way that is approachable.
 
 
-Read the paper, "Feynman Machine: The Universal Dynamical Systems Computer" [here!](https://arxiv.org/abs/1609.03971)
+If you are interested in the inner workings of the Feynman Machine, read the paper "Feynman Machine: The Universal Dynamical Systems Computer" [here!](https://arxiv.org/abs/1609.03971)
 
 
 
@@ -67,9 +65,11 @@ Read the paper, "Feynman Machine: The Universal Dynamical Systems Computer" [her
 
 ### EOgmaNeo ###
 
+[EOgmaNeo](https://github.com/ogmacorp/EOgmaNeo) is Ogma Corp's embedded version of OgmaNeo. For some tasks it is also much faster than OgmaNeo. 
+
 While OgmaNeo can run on large networks and parallel architectures like GPUs, EOgmaNeo runs on the CPU and is optimized for low-powered hardware. 
 
-
+EOgmaNeo is used for this SDC.
 
 
 
@@ -99,6 +99,7 @@ While OgmaNeo can run on large networks and parallel architectures like GPUs, EO
 - [Steam Controller w/ Dongle](https://store.steampowered.com/app/353370/Steam_Controller/)
 
 
+
 #### Misc: #### 
 
 - [Mounting Tape](https://www.amazon.com/gp/product/B003W0R4PE/ref=oh_aui_detailpage_o07_s01?ie=UTF8&psc=1)
@@ -106,6 +107,10 @@ While OgmaNeo can run on large networks and parallel architectures like GPUs, EO
 - [Breadboard with Jumper Cables](https://www.amazon.com/gp/product/B073X7GZ1P/ref=oh_aui_detailpage_o09_s00?ie=UTF8&psc=1)
 
 - [Solid Hookup Wire](https://www.amazon.com/gp/product/B008L3QJAS/ref=oh_aui_detailpage_o06_s00?ie=UTF8&psc=1)
+
+
+
+
 
 
 
@@ -125,6 +130,9 @@ Walkthrough for the installation process in my Docker container repository [here
 
 
 
+
+
+
 <a name="docker"/>
 
 ### Docker Image for Pi ###
@@ -132,6 +140,10 @@ Walkthrough for the installation process in my Docker container repository [here
 [Docker image repository](https://github.com/ylustina/sdc-docker) for setting up a Raspberry Pi 3 Stretch environment for the EOgmaDrive self-driving car.
 
 [DockerHub link](https://hub.docker.com/r/ylustina/sdc-docker/).
+
+
+
+
 
 
 
