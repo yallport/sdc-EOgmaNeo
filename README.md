@@ -179,6 +179,12 @@ On the Arduino, here are the corresponding digital connections:
 
 If you want, you can change the assignment in the [.ino file](https://github.com/ylustina/sdc-EOgmaNeo/blob/master/self-driving%20car/drive/src/SDC_controller_norf.ino).
 
+The 2 remaining cables:
+
+- Red goes into 5V on the Arduino
+
+- Black goes into ground on the Arduino
+
 
 ![Arduino side](https://github.com/ylustina/sdc-EOgmaNeo/blob/master/docs/arduino-side.jpg)
 
