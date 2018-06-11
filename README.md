@@ -211,7 +211,7 @@ Push a button on the controller on reboot and after starting the daemon!
 
 I replaced the stock ESC with the [Dynamite Brushed ESC](https://www.amazon.com/gp/product/B00M1SB35U/ref=oh_aui_detailpage_o02_s00?ie=UTF8&psc=1) because the one that comes with the car makes the car stutter randomly.
 
-I couldn't get all the materials to fit under the truck case, so I ended up with a beautiful Frankensteined cable monster. You try it! Good luck!
+I couldn't get all the materials to fit under the truck case, so I ended up with a cable monster. You try it! Good luck!
 
 
 
