@@ -246,7 +246,7 @@ If you are using my Docker container, here are the instructions:
 - Pi will be looking for the controller, press a button for them to connect. After the controller is connected, you should be good to go!
 
 
-To train the SDC, just drive it around for a bit. The button A toggles self-driving mode. 
+To train the SDC, just drive it around for a bit. The button A switches between training and self-driving mode. 
 
 
 
