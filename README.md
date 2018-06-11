@@ -187,7 +187,7 @@ The 2 remaining cables:
 
 
 
-![Wiring](https://github.com/ylustina/sdc-EOgmaNeo/blob/master/docs/SDC_bb.jpg)
+![Wiring](https://github.com/ylustina/sdc-EOgmaNeo/blob/master/docs/fritzing.jpg)
 
 ![Arduino side](https://github.com/ylustina/sdc-EOgmaNeo/blob/master/docs/arduino-side.jpg)
 
