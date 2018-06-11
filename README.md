@@ -24,6 +24,9 @@
 
 [Assembly Instructions](#assembly)
 
+[Train and Test](#run) 
+
+
 
 
 ---------------
@@ -225,6 +228,30 @@ To test if the camera works:
     
 
 I used [this mount](https://github.com/ylustina/sdc-EOgmaNeo/blob/master/rustler_mount.stl) to mount the camera for the Raspberry Pi to the truck. It doesn't perfectly slide onto the truck, and is made for the GoPro, but with some epoxy, it got the job done. Please let me know if you find something better!
+
+
+
+
+<a name="run"/>
+
+
+## Train and Test
+
+If you are using my Docker container, here are the instructions:
+
+- Connect all wires
+
+- Wait for the Pi to start
+
+- Pi will be looking for the controller, press a button for them to connect. After the controller is connected, you should be good to go!
+
+
+To train the SDC, just drive it around for a bit. The button A toggles self-driving mode. 
+
+
+
+
+
 
 
 
