@@ -190,7 +190,7 @@ The 2 remaining cables:
 
 
 
-![Wiring](https://github.com/ylustina/sdc-EOgmaNeo/blob/master/docs/pi-arduino.jpg)
+![Wiring](https://github.com/ylustina/sdc-EOgmaNeo/blob/master/docs/wires.jpg)
 
 ![Arduino side](https://github.com/ylustina/sdc-EOgmaNeo/blob/master/docs/arduino-side.jpg)
 
