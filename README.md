@@ -20,7 +20,7 @@
 
 [Installation Instructions](#install)
 
-- [Docker Image for Pi](#docker)
+- [Docker Image for Pi](#docker) 🐋
 
 [Assembly Instructions](#assembly)
 
